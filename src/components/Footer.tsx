@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Sparkles, Heart, ExternalLink, ShieldCheck, CheckCircle2 } from "lucide-react";
+import { Sparkles, ExternalLink, ShieldCheck, CheckCircle2 } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -19,9 +19,9 @@ export default function Footer() {
             <p className="text-[11px] text-slate-400 leading-relaxed">
               Official Technical Assignment Solution engineered for <strong>Karanpreet Singh</strong> for the <em>LLM &amp; Multimodal AI Model Training</em> role.
             </p>
-            <p className="text-[10px] text-slate-500 font-mono">
-              Build: 2026.10.15-PROD • Node Unus
-            </p>
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 font-mono text-[10px]">
+              <span>⚡ Powered by TheWebVale</span>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -63,20 +63,23 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Candidate Bio */}
+          {/* Architecture */}
           <div className="space-y-2">
-            <h4 className="font-semibold text-slate-200 text-xs">Candidate Contact</h4>
-            <p className="text-[11px] text-slate-300 font-semibold">Yash Jain</p>
-            <p className="text-[11px] text-slate-400">MCA in AI (81%) • Full-Stack Builder</p>
-            <p className="text-[11px] text-indigo-400 font-mono">yaashjainn@gmail.com</p>
-            <div className="pt-2">
+            <h4 className="font-semibold text-slate-200 text-xs">Architecture</h4>
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-medium text-[11px]">
+              <span>⚡ Powered by TheWebVale</span>
+            </div>
+            <p className="text-[11px] text-slate-400 leading-relaxed">
+              Engineered with clean-room Next.js 15 standards, interactive video walkthroughs, and deterministic AI benchmarks.
+            </p>
+            <div className="pt-1">
               <a
-                href="https://github.com/yash560"
+                href="https://thewebvale.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-[11px] text-slate-400 hover:text-white transition-colors"
+                className="inline-flex items-center gap-1 text-[11px] text-indigo-400 hover:text-indigo-300 transition-colors"
               >
-                <span>github.com/yash560</span>
+                <span>TheWebVale Platform</span>
                 <ExternalLink className="h-3 w-3" />
               </a>
             </div>
@@ -85,9 +88,11 @@ export default function Footer() {
 
         <div className="pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
           <div>
-            © 2026 Yash Jain. Designed &amp; Engineered with Next.js 15, React 19 &amp; Tailwind CSS v4.
+            © 2026 TheWebVale Architecture • MacStudio AI Suite for Karanpreet Singh.
           </div>
-          <div className="flex items-center gap-2 text-slate-500 font-mono text-[10px]">
+          <div className="flex items-center gap-3 text-slate-500 font-mono text-[10px]">
+            <span className="text-emerald-400">⚡ Powered by TheWebVale</span>
+            <span>•</span>
             <span>Deterministic 0-Error Build</span>
             <span>•</span>
             <span>Vercel Edge Platform</span>

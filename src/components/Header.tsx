@@ -33,8 +33,8 @@ export default function Header({ activeSection, setActiveSection }: HeaderProps)
             <span>Role: <strong className="text-indigo-300">LLM &amp; Multimodal AI Model Training</strong></span>
           </div>
           <div className="flex items-center gap-3">
-            <span className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 px-2 py-0.5 rounded font-mono text-[11px]">
-              Candidate: Yash Jain (MCA AI, 81%)
+            <span className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 px-2.5 py-0.5 rounded-full font-mono text-[11px] inline-flex items-center gap-1.5">
+              <span>⚡ Powered by TheWebVale</span>
             </span>
           </div>
         </div>

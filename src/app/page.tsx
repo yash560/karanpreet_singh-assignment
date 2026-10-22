@@ -56,7 +56,7 @@ export default function Home() {
               { label: "Hardware", val: "Apple M3 Max • 64GB Unified RAM", icon: Cpu },
               { label: "Video Duration", val: "02:52 (Under 5m Target)", icon: Play },
               { label: "Software Demo", val: "VS Code • PyTorch MPS Zero-Copy", icon: Code2 },
-              { label: "Candidate", val: "Yash Jain (MCA in AI, 81%)", icon: ShieldCheck },
+              { label: "Architecture", val: "TheWebVale Enterprise Suite", icon: ShieldCheck },
             ].map((badge, idx) => {
               const Icon = badge.icon;
               return (
